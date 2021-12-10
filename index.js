@@ -3,7 +3,7 @@ import {getLinkPreview} from 'link-preview-js';
 import PropTypes from 'prop-types';
 import {Image, Linking, Platform, Text, TouchableOpacity, View, ViewPropTypes} from 'react-native';
 
-const REGEX = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/g;
+const REGEX = /((http|ftp|https):\/\/)?([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/i
 
 export default class RNUrlPreview extends React.PureComponent {
   constructor(props) {
