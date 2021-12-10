@@ -15,7 +15,7 @@
     "youtube video preview",
     "link preview"
   ],
-  "author": "Zaidoune Maher",
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
   "license": "MIT",
   "peerDependencies": {
     "prop-types": "*",
@@ -29,10 +29,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maherzaidoune/react-native-url-preview.git"
+    "url": "git+https://github.com/mohamedsamara/react-native-url-preview.git"
   },
   "bugs": {
-    "url": "https://github.com/maherzaidoune/react-native-url-preview/issues"
+    "url": "https://github.com/mohamedsamara/react-native-url-preview.git/issues"
   },
-  "homepage": "https://github.com/maherzaidoune/react-native-url-preview#readme"
+  "homepage": "https://github.com/mohamedsamara/react-native-url-preview.git#readme"
 }
